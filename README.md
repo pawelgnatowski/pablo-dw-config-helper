@@ -1,5 +1,7 @@
 # DataWalk Chrome Extension (Pablo's DW Chad)
 
+![Version](https://img.shields.io/badge/version-0.1.523-blue)
+
 A powerful Chrome extension designed to enhance the DataWalk platform with additional productivity tools and utilities.
 
 ## Features

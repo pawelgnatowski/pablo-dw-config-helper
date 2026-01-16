@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
-  "name": "Pablo's DW Chad",
-  "version": "0.1.134",
-  "description": "Browser extension to enhance DataWalk experience.",
+  "name": "Pablo's DW Chad - Svelte",
+  "version": "0.1.523",
+  "description": "Browser extension to enhance DataWalk experience - Svelte 5 version.",
   "permissions": [
     "storage",
     "activeTab",
@@ -25,8 +25,16 @@
         "content_script.js"
       ],
       "css": [
-        "assets/css/style.css",
-        "assets/css/sql-config-converter.css"
+        "assets/css/style.css"
+      ],
+      "run_at": "document_idle"
+    },
+    {
+      "matches": [
+        "<all_urls>"
+      ],
+      "js": [
+        "selection_script.js"
       ],
       "run_at": "document_idle"
     }
@@ -34,27 +42,13 @@
   "web_accessible_resources": [
     {
       "resources": [
-        "injected_script.js",
-        "assets/css/style.css",
+        "assets/css/*.css",
         "assets/icons/*.png",
-        "assets/css/sql-config-converter.css"
+        "chunks/*.js"
       ],
       "matches": [
         "<all_urls>"
       ]
     }
-  ],
-  "action": {
-    "default_title": "Pablo's DW Chad",
-    "default_icon": {
-      "16": "assets/icons/icon16.png",
-      "48": "assets/icons/icon48.png",
-      "128": "assets/icons/icon128.png"
-    }
-  },
-  "icons": {
-    "16": "assets/icons/icon16.png",
-    "48": "assets/icons/icon48.png",
-    "128": "assets/icons/icon128.png"
-  }
+  ]
 }

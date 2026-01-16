@@ -1,0 +1,9 @@
+{
+  "releases": [
+    {
+      "version": "0.1.445",
+      "date": "2026-01-13",
+      "changes": ["Change 1", "Change 2"]
+    }
+  ]
+}
