@@ -1,9 +1,17 @@
 {
   "releases": [
     {
-      "version": "0.1.445",
-      "date": "2026-01-13",
-      "changes": ["Change 1", "Change 2"]
+      "version": "0.1.523",
+      "date": "2026-01-19",
+      "changes": [
+        "Added virtual path edit functionality",
+        "Improved search matching",
+        "Added view management and create view features",
+        "Added groups support",
+        "Added links and attributes features",
+        "New badges and UI improvements",
+        "Various bug fixes and stability improvements"
+      ]
     }
   ]
 }
